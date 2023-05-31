@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{C9BE0D31-842B-4B4A-8FE3-D9EE12E1E3BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackgroundService", "BackgroundService", "{5EAFC033-D09F-48C9-BCCF-1C99DCEBDA54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NATS.Extensions.DependencyInjection", "NATS.Extensions.DependencyInjection\NATS.Extensions.DependencyInjection.csproj", "{CA70E0A4-F844-49BA-96D2-B131E1AEFBB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NatsProducerApi", "NatsProducerApi\NatsProducerApi.csproj", "{ACD7B2A4-D61A-44F0-BDF9-7F5172479341}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NatsConsumerWorker", "NatsConsumerWorker\NatsConsumerWorker.csproj", "{708EF014-9A4E-4B26-ACD3-C3A3BBDD2077}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{40E92B8F-78F3-43A6-AB9C-2F88E7255CDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{AF080824-DCEE-43A5-84D6-E77668146FEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mikrotjänst", "Mikrotjänst", "{C1B1D7A7-79B9-4751-B1F2-BCB36A71C0B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{E220B559-F3A3-4AD6-8FC9-2BC6C479C6AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektor", "Projektor", "{6CAE44E9-C955-44EC-A754-19B68A20CEC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA70E0A4-F844-49BA-96D2-B131E1AEFBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA70E0A4-F844-49BA-96D2-B131E1AEFBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA70E0A4-F844-49BA-96D2-B131E1AEFBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA70E0A4-F844-49BA-96D2-B131E1AEFBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD7B2A4-D61A-44F0-BDF9-7F5172479341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD7B2A4-D61A-44F0-BDF9-7F5172479341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD7B2A4-D61A-44F0-BDF9-7F5172479341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD7B2A4-D61A-44F0-BDF9-7F5172479341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708EF014-9A4E-4B26-ACD3-C3A3BBDD2077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708EF014-9A4E-4B26-ACD3-C3A3BBDD2077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708EF014-9A4E-4B26-ACD3-C3A3BBDD2077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708EF014-9A4E-4B26-ACD3-C3A3BBDD2077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF080824-DCEE-43A5-84D6-E77668146FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF080824-DCEE-43A5-84D6-E77668146FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF080824-DCEE-43A5-84D6-E77668146FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF080824-DCEE-43A5-84D6-E77668146FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA70E0A4-F844-49BA-96D2-B131E1AEFBB3} = {40E92B8F-78F3-43A6-AB9C-2F88E7255CDF}
+		{ACD7B2A4-D61A-44F0-BDF9-7F5172479341} = {C9BE0D31-842B-4B4A-8FE3-D9EE12E1E3BD}
+		{708EF014-9A4E-4B26-ACD3-C3A3BBDD2077} = {5EAFC033-D09F-48C9-BCCF-1C99DCEBDA54}
+		{AF080824-DCEE-43A5-84D6-E77668146FEB} = {40E92B8F-78F3-43A6-AB9C-2F88E7255CDF}
+		{E220B559-F3A3-4AD6-8FC9-2BC6C479C6AC} = {C1B1D7A7-79B9-4751-B1F2-BCB36A71C0B1}
+		{6CAE44E9-C955-44EC-A754-19B68A20CEC8} = {C1B1D7A7-79B9-4751-B1F2-BCB36A71C0B1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB477A7A-7F21-4A3C-A67A-7E33906B0436}
+	EndGlobalSection
+EndGlobal
